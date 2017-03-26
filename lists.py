@@ -16,11 +16,11 @@
 # list.reverse()
 # print(list)
 
-a=[0,1,2]
-b=[3,4,5]
-c=[6,7,8]
-make=[a,b,c]
-print(make)
-print(make[1][1])
+# a=[0,1,2]
+# b=[3,4,5]
+# c=[6,7,8]
+# make=[a,b,c]
+# print(make)
+# print(make[1][1])
 
 

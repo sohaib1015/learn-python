@@ -10,18 +10,18 @@ print(my_diction['k1'])
 # my_diction['k3']+100
 # print(my_diction['k3']+100)
 
-my_diction['k3']+=100
-print(my_diction['k3'])
-
-d={}
-d={'animal':'lion'}
-print(d['animal'])
-
-d.keys()
-print(d.keys())
-print(d.values())
-
-# they are called tuples
-print(d.items())
+# my_diction['k3']+=100
+# print(my_diction['k3'])
+#
+# d={}
+# d={'animal':'lion'}
+# print(d['animal'])
+#
+# d.keys()
+# print(d.keys())
+# print(d.values())
+#
+# # they are called tuples
+# print(d.items())
 
 
