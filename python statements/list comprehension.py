@@ -39,6 +39,7 @@
 # print(fahrenheit)
 
 
+# final result of x**4 for num in range 11
 lisst=[x**2 for x in[x**2 for x in range(0,11)]]
 print(lisst)
 
