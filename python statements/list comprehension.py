@@ -40,9 +40,32 @@
 
 
 # final result of x**4 for num in range 11
-lisst=[x**2 for x in[x**2 for x in range(0,11)]]
-print(lisst)
+# lisst=[x**2 for x in[x**2 for x in range(0,11)]]
+# print(lisst)
 
+
+
+# st="bilal shakeel sami"
+# for x in st.split():
+#     if x[0]=='s':
+#          print(x)
+#
+# sb='bilal'
+# print(sb[::-1])
+#
+# lis=[]
+# for e in range(0,11,2):
+#         lis.append(e)
+# print(lis)
+
+c=[z for z in range(1,50) if z%3==0]
+print(c)
+
+
+p='my father shakil ahmad is great person'
+for c in p.split():
+    if len(c)%2==0:
+        print(c + ' even numbers')
 
 
 
