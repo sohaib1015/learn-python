@@ -58,14 +58,24 @@
 #         lis.append(e)
 # print(lis)
 
-c=[z for z in range(1,50) if z%3==0]
-print(c)
+#
+# c=[z for z in range(1,50) if z%3==0]
+# print(c)
+#
+#
+# p='my father shakil ahmad is great person'
+# for c in p.split():
+#     if len(c)%2==0:
+#         print(c + ' even numbers')
 
 
-p='my father shakil ahmad is great person'
-for c in p.split():
-    if len(c)%2==0:
-        print(c + ' even numbers')
+# for v in range(1,10):
+#     if v%2==0:
+#         print('even numbers')
+#     else:
+#         print('odd numbers')
 
-
-
+a='my name is bilal ahmad'
+for n in a.split():
+    if len(n)%2==0:
+        print(n)
