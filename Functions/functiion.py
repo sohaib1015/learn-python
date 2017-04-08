@@ -26,8 +26,20 @@ print(x)
 
 
 
-
-
+s= 'Bilal ahmad'
+def globloc(s):
+    d={"upper":0,"lower":0}
+    for c in s:
+        if c.isupper():
+            d["upper"]+=1
+        elif c.islower():
+            d["lower"]+=1
+        else:
+            pass
+    print("on going name",s)
+    print("upper",d["upper"])
+    print("lower",d["lower"])
+globloc(s)
 
 
 
