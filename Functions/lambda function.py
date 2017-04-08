@@ -39,6 +39,8 @@ print(lam('bilal'))
 c=lambda s:s[::-1]
 print(c('bilal'))
 
+ 
+
 
 
 
