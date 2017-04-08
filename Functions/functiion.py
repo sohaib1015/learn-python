@@ -13,6 +13,7 @@ x=student(2,5)
 print(student(4,4))
 print(x)
 
+
 # def prime_number(num):
 #     for n in range(2,num):
 #         # n is 2 and num is argument in which you have already give the argument for n that is 9

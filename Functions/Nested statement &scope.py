@@ -50,4 +50,10 @@ func()
 
 
 
+def vol():
+    rad=4/3*(3.14)
+    return rad
+vol()
+print(vol())
+
 
