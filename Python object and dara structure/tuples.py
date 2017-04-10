@@ -18,9 +18,9 @@
 #
 # # t[0]='bilsl'
 #
-# t=(1,2,2,3,4)
-# t.count(2)
-# print(t.count(2))
+t=(1,2,2,3,4)
+t.count(2)
+print(t.count(2))
 
 b=[1,4,8]
 print(b)
