@@ -18,15 +18,15 @@ s='hello world'
 #
 # print(s[-1])
 #
-print(s[:-1])
+print(s[::-1])
 #
 # print(s[::2])
 #
 # print(s[::-1])
 
-print(s.upper())
-print(s.lower())
-print(s.split('e'))
-
-print(s+ ' bilal')
-print (s*10)
+# print(s.upper())
+# print(s.lower())
+# print(s.split('e'))
+#
+# print(s+ ' bilal')
+# print (s*10)
