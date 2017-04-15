@@ -82,11 +82,11 @@
 #     return total
 # print(num(s))
 
-g='bilal'
-def backward(g):
-    g[::-1]
-    return g
-print(backward(g))
+# g='bilal'
+# def backward(g):
+#     g[::-1]
+#     return g
+# print(backward(g))
 
 # def palindrome(q):
 #
@@ -94,6 +94,21 @@ print(backward(g))
 # print(palindrome(g))
 
 
+
+d='Your Name is bilal ahamd'
+def num(d):
+    c={"uppercase":0,"lowercase":0}
+    for a in d:
+        if a.isupper():
+            c["uppercase"]+=1
+        elif a.islower():
+            c["lowercase"]+=1
+        else:
+            pass
+        print('total',d)
+        print('no of upper case character',c["uppercase"])
+        print('no of upper case character',c["lowercase"])
+print(num(d))
 
 
 
