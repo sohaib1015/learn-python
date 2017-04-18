@@ -38,29 +38,36 @@
 #
 
 
-
-class employees():
-     def __init__(self,first,last,pay):
-         self.first=first
-         self.last=last
-         self.pay=pay
-         self.email=first +'.' + last + '@gmail.com'
-
-     def name(self):
-         return (self.first + self.last)
-
-emp=employees('bilal','ahmad',2000)
-# emp.name (emp is attribute that called method function)
-print(emp.name())
-# employees.name(employees is class that function and it is necessary to pass the arguments like emp)
-print(employees.name(emp))
-
-
-
-
-
+#
+# class employees():
+#      def __init__(self,first,last,pay):
+#          self.first=first
+#          self.last=last
+#          self.pay=pay
+#          self.email=first +'.' + last + '@gmail.com'
+#
+#      def name(self):
+#          return (self.first + self.last)
+#
+# emp=employees('bilal','ahmad',2000)
+# # emp.name (emp is attribute that called method function)
+# print(emp.name())
+# # employees.name(employees is class that function and it is necessary to pass the arguments like emp)
+# print(employees.name(emp))
+#
+#
+#
 
 
+class name():
+
+    def __init__(self,first,last,salary):
+        self.first=first
+        self.last=last
+        self.salary=salary
+
+name1=name('sami' ,'ahmad','1200$')
+print(name1.first)
 
 
 
