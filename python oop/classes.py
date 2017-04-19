@@ -57,6 +57,7 @@ class employee():
         self.email=first+'.'+last+ '@gmail.com'
 
     def fullname(self):
+<<<<<<< Updated upstream
         return '{}{}'.format(self.first,self.last)
 emp1=employee('bilal','ahmad',5000)
 print(employee.ceo)
@@ -66,3 +67,12 @@ print(employee.fullname(emp1))
 
 
 
+=======
+        return '{} {}'.format(emp_1.first, emp_1.last)
+emp_1=employee('bilal','ahmad',5000)
+emp_2=employee('sami','ahmad',3000)
+
+print(emp_1.email)
+print(emp_2.email)
+print(emp_1.fullname())
+>>>>>>> Stashed changes
