@@ -55,7 +55,7 @@ emp2=employee('sami','ahmad',5000)
 print(employee.__dict__)
 print(emp1.fullname())
 print(emp1.applyraise())
-print(emp2.applyraise())
+print(emp.applyraise())
 print(employee.no_of_employess)
 
 
