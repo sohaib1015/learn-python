@@ -22,15 +22,47 @@
 
 # class employee():
 #     def __init__(self,first,last,pay):
+#         self.first=first
+#         self.last=last
+#         self.salary=salary
+#
+# name1=name('sami' ,'ahmad','1200$')
+# print(name1.first)
+# print(emp_1.email)
+# print(emp_2.email)
+# print(emp_1.fullname())
+#
+#
+
+#
+# class names():
+#     species='mammals'
+#
+#     def __init__(self,breed,name):
+# Instance variable are unique that we used with self object instant
+#         self.breed=breed
+#         self.name=name
+# abc=names('dog','german')
+# cdf=names('dog','ireland')
+# print(names.species)
+# print(names.__init__())
+
+
+class employee():
+    ceo='samiahmad'
+    def __init__(self,first,last,pay):
         self.first=first
         self.last=last
-        self.salary=salary
+        self.pay=pay
+        self.email=first+'.'+last+ '@gmail.com'
 
-name1=name('sami' ,'ahmad','1200$')
-print(name1.first)
+    def fullname(self):
+        return '{}{}'.format(self.first,self.last)
+emp1=employee('bilal','ahmad',5000)
+print(employee.ceo)
+print(emp1.email)
+print(employee.fullname(emp1))
 
-print(emp_1.email)
-print(emp_2.email)
-print(emp_1.fullname())
-n
+
+
 
