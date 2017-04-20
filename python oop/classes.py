@@ -74,8 +74,11 @@ emp_2=employee('sami','ahmad',3000)
 
 print(emp_1.email)
 print(emp_2.email)
+<<<<<<< Updated upstream
 print(emp_1.fullname())
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+
+
