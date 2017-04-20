@@ -20,16 +20,54 @@
 #         print('finally block executed')
 # print(askint())
 
-def askint():
+# def askint():
+#     while True:
+#         try:
+#             value=int(input('please enter an integer'))
+#         except:
+#             print('soory you did not enter interger')
+#             continue
+#         else:
+#             print('correct that is integer')
+#             break
+#         finally:
+#             print('finally block executed')
+# print(askint())
+
+#
+# try:
+#     for i in ['a','b','c']:
+#         print(i**2)
+# except:
+#     print('an error occured')
+# finally:
+#     print('all done')
+
+x=0
+y=5
+try:
+    z=y/x
+    print('correct',z)
+except :
+    print('can,t divide by zero')
+finally:
+    print('all done')
+
+
+def ask():
     while True:
         try:
-            value=int(input('please enter an integer'))
+            n=int(input('input an integer'))
+            x= n**2
+            print(x)
         except:
-            print('soory you did not enter interger')
+            print('soory you enter incorrect')
             continue
-        else:
-            print('correct that is integer')
-            break
         finally:
-            print('finally block executed')
-print(askint())
+            break
+    print('thanks')
+ask()
+
+
+
+
