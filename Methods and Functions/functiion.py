@@ -15,13 +15,14 @@
 
 
 def prime_number(num):
-    for n in range(2,num):
+    for n in range(2,int(sqrt(num)) + 1):#iteration till square root of num is enough to check if num is prime or not, 
         # n is 2 and num is argument in which you have already give the argument for n that is 9
         if num%n==0:
-            print('prime number')
-        else:
-            print('not prime number')
-prime_number(4)
+            print('Number is Not Prime')
+            return False
+    print "Number is Prime"
+if __name__=="__main__":
+    prime_number(15)
 
 
 
@@ -45,13 +46,7 @@ prime_number(4)
 
 
 
-def primenumber(num):
-    for n in range(1,num):
-        if num%n==0:
-            print("prime number")
-        else:
-            print('not prime number')
-prime_number(2)
+
 
 
 
